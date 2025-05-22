@@ -1,9 +1,10 @@
 import React from 'react'
-import Home from './components/Home'
+import Home from './components/Home/Home'
+
 
 const HomePage = () => {
   return (
-    <div className='text-xl bg-green-400'><Home/></div>
+    <div className=''><Home/></div>
   )
 }
 
