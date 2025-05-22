@@ -1,6 +1,8 @@
 import React from 'react'
 import Hero from './Hero/Hero'
 import WhychooseYou from './Hero/WhychooseYou'
+import AnaltyticsFeature from './AnlyticsFeature/AnaltyticsFeature'
+import Feature from './Feature/Feature'
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
       <Hero/>
       
       <WhychooseYou/>
+      <AnaltyticsFeature/>
+      <Feature/>
       </div>
   )
 }
